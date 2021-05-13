@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css file-->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- Css normalize -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- start of the header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo.png" alt="logo">
+            </div>
+            <nav>
+                <input type="checkbox" id="toggler" class="toggler">
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <label for="toggler" class="toggler-bar">
+                    <span></span>
+                </label>
+            </nav>
+        </div>
+    </header>
+    <!-- end of the header -->
+
+    <!-- start of introduction section -->
+    <div class="introduction">
+        <div class="container">
+            <div class="info">
+                <h1>Hello!!!<br> we are creative digital agency.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia numquam unde atque nisi.</p>
+                <button>
+                    <a href="mailto:bahharmohamed18@gmail.com">Send message</a>
+                </button>
+            </div>
+            <div class="image">
+                
+            </div>
+        </div>
+    </div>
+    <!-- end of introduction section -->
+
+    <!-- start work section -->
+    <div class="work" id="work">
+        <div class="container">
+            <div>
+                <h1 class="section-tittle">work showcase.</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="active" href="#">all</a></li>
+                    <li><a href="#">branding</a></li>
+                    <li><a href="#">illustration</a></li>
+                    <li><a href="#">web</a></li>
+                </ul>
+                <form action="action">
+                    <label for="work"></label>
+                    <select name="work" id="work">
+                        <option value="NEWEST FIRST">NEWEST FIRST</option>
+                        <option value="LOWEST PRICE">LOWEST PRICE</option>
+                        <option value="HEIGHEST PRICE">HEIGHEST PRICE</option>
+                    </select>
+                </form>
+            </nav>
+            <div class="gallery">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+                <div class="box5"></div>
+                <div class="box6"></div>
+            </div>
+            <button><a href="#">show me more</a></button>
+        </div>
+    </div>
+    <!-- end work section -->
+
+    <!-- start of about  section -->
+    <div class="about" id="about">
+        <div class="container">
+            <h1 class="section-tittle">about us.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nostrum eaque earum quia.</p>
+            <div class="grid">
+                <div class="polaroid pic1">
+                    <div class="overlay">
+                        <h4>Luke Skywalker</h4>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <div class="polaroid pic2">
+                    <div class="overlay">
+                        <h4>Taylor Swift</h4>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>Little About Us</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, possimus distinctio? Non, adipisci harum. 
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of about us section -->
+
+    <!-- start of our blog section -->
+    <div class="blog" id="blog">
+        <div class="container">
+            <h1 class="section-tittle">our blog.</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sed, rerum et aliquam omnis qui.
+            </p>
+            <div class="grid">
+                <div class="column ">
+                    <div class="image pic1"></div>
+                    <div class="text">
+                        <h4>super blog article</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image pic2"></div>
+                    <div class="text">
+                        <h4>super blog article</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image pic3"></div>
+                    <div class="text">
+                        <h4>super blog article</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of our blog section -->
+
+    <!-- start of contact section -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h1 class="section-tittle">
+                contact us.
+            </h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus impedit molestiae, aspernatur ipsam pariatur!</p>
+            <div class="grid">
+                <div class="contact">
+                    <h3>send us message</h3>
+                    <div class="form">
+                        <form action="">
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+        
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Email">
+        
+                            <label for="message"></label>
+                            <textarea name="message" id="message" placeholder="Your Message Here"></textarea>
+        
+                            <input type="submit" value="SEND MESSAGE">
+                        </form>
+                    </div>
+                </div>
+                <div class="image">
+
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="flex">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>1211 Awesome Avenue<br>NY USD<p>
+                </div>
+                <div class="flex">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>+00 123-456-78<br>+00 987-654-32</p>
+                </div>
+                <div class="flex">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <p>mint@mintmail.com</p>
+                </div>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- end of contact section -->
+
+    <!-- start of the footer section -->
+    <footer>
+        <div class="container">
+            <img class="logo" src="/images/logo.png" alt="">
+            
+            <p class="copyright">&copy; 2021 <a href="https://www.linkedin.com/in/mohamed-behhar-332025155/" target="_blank" >Mohamed Behhar</a></p>         
+        
+    </footer>
+    <!-- end of the footer section -->
+
+    <!-- start of back to top button -->
+    <div class="back">
+        <a href="#"><i class="fas fa-chevron-circle-up"></i></a>
+    </div>
+    <!-- end back to top button -->
+</body>
+</html>
